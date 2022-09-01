@@ -1,15 +1,14 @@
 #Question 4
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
-print("Length of Set it_companies:",len(it_companies))
-#add(elements) adds elements into the set
+print("Length of it_companies:",len(it_companies))
+# adds Twitter elements into the set
 it_companies.add('Twitter')
 print("it_companies: ", it_companies)
-it_companies.update(['Cognizant','LinkedIn','Salesforce','Wipro'])
+it_companies.update(['Tcs','Accenture','anilee','Wipro'])
 print("it_companies after update: ",it_companies)
-#remove() remove the element from the set
-it_companies.remove("LinkedIn")
+#remove() is used to  remove the element from the set
+it_companies.remove("anilee")
 print(it_companies)
-
 #Difference between remove and discard
 print("\nDifference between Remove() and Discard(): Discard() method is different from the remove() method, because the remove() method will throw an error if the specified item is not present in list, whereas the discard() method will not throw any error if item doesn't exist in list.")
 A = {19, 22, 24, 20, 25, 26}
@@ -28,7 +27,6 @@ print("Symmetric Difference of A with B: ",A.symmetric_difference(B))
 A.clear()
 B.clear()
 print("After clear Set A values: ", A,"\tSet B values: ",B)
-
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 print("\nage list: ",age)
 age_set = set(age)

@@ -1,5 +1,6 @@
 # Question 9
 # 1lb = 0.453592kg
+# Ask the user to enter the no of students he want
 number_of_students = int(input("Enter number of students: "))
 weight_of_students_lbs = list()  # to store weights in lbs
 weight_of_students_kgs = list()  # to store weights in kgs
