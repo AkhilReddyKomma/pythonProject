@@ -9,7 +9,7 @@ from sklearn.metrics import confusion_matrix
 X = nm.array([[1, 0], [2, 0], [3, 0], [6, 0], [6, 0], [7, 0], [10, 0], [11, 0]])
 print("Dataset with total 8 points: \n", X, "\n Size: ", len(X))
 y = nm.array([0, 0, 1, 1, 1, 0, 0, 0])
-print("\nClass label for the datasetX  Y:", y)
+print("\n Class label for the datasetX  Y:", y)
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.50, random_state=0, shuffle=False)
 print("\nTraining Data X: \n", x_train)
 print("\nTraining Data label Y:", y_train)
